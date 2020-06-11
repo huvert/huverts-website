@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h1 {
+  display: inline-block;
+  margin-top: 0;
+}
+
+.fixed_box {
+  position: fixed;
+  margin: 160px 35%;
+  width: 400px;
+}
+
+/* ====    Layers    ==== */
+.layer-1 {
+  background-color: #eeeeee;
+  height: 2500px;
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+.layer-2 {
+  background-color: #32e0c4;
+  height: 3000px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  margin: 700px 0 0 0;
+}
+.layer-3 {
+  background-color: #393e46;
+  height: 1800px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  margin: 2000px 0 0 0;
+}
+.layer-4 {
+  background-color: #222831;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+/*     First layer       */
+.clouds_and_mountains {             /* Parent */
+  height: 700px;
+  margin: auto;
+  position: relative;
+}
+.bottom-cloud {
+  position: absolute;
+  top: 350px;
+  left: 30%;
+}
+.top-cloud {
+  position: absolute;
+  left: 55%;
+  top: 115px;
+}
+.sun {
+  position: fixed;
+  left: 55%;
+  top: 300px;
+}
+.mountain {
+  position: absolute;
+  bottom: 0;
+  left: 32%;
+}
+.teletubbies {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+/*   Seconds Layer   */
+.profile-picture {
+  margin: 50px 0 0 0;
+}
+.small-logos {
+  height: 100px;
+  width: 100px;
+}
+.table {
+  position: relative;
+  margin: 10px auto;
+}
